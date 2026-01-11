@@ -1,0 +1,319 @@
+
+
+/* Tablets: 768px en adelante */
+@media (min-width: 768px) {
+    
+    /* Header */
+    header {
+        padding: 1.5rem 2rem;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .student-name {
+        font-size: 1.3rem;
+    }
+    
+    /* Hide hamburger on larger screens */
+    .hamburger {
+        display: none;
+    }
+    
+    /* Navigation - Horizontal */
+    nav {
+        display: block !important;
+        background-color: var(--secondary-color);
+        position: static;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav li {
+        border-bottom: none;
+        border-right: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    nav li:last-child {
+        border-right: none;
+    }
+    
+    nav a {
+        padding: 1rem 2rem;
+    }
+    
+    /* Main Content */
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    /* Profile Section */
+    .profile-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    
+    .profile-content img {
+        max-width: 250px;
+        flex-shrink: 0;
+    }
+    
+    /* Course Cards - 2 columns */
+    .course-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    /* Projects Grid - 2 columns */
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    /* Stats Grid */
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 2.5rem 2rem;
+    }
+}
+
+/* Desktop: 1024px en adelante */
+@media (min-width: 1024px) {
+    
+    /* Header */
+    header {
+        padding: 2rem 3rem;
+    }
+    
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .student-name {
+        font-size: 1.5rem;
+    }
+    
+    /* Navigation */
+    nav a {
+        padding: 1.2rem 2.5rem;
+        font-size: 1.05rem;
+    }
+    
+    nav a:hover {
+        background-color: rgba(0,0,0,0.3);
+    }
+    
+    /* Main Content */
+    main {
+        padding: 3rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    /* Profile Section */
+    .profile-section {
+        padding: 2.5rem;
+    }
+    
+    .profile-content img {
+        max-width: 300px;
+    }
+    
+    .profile-text p {
+        font-size: 1.05rem;
+    }
+    
+    /* Certificate Section */
+    .certificate-section {
+        padding: 2.5rem;
+    }
+    
+    /* Filter Buttons */
+    .filter-buttons {
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .filter-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    /* Course Cards - 3 columns */
+    .course-cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    
+    .course-card {
+        padding: 1.5rem;
+    }
+    
+    .course-header h3 {
+        font-size: 1.4rem;
+    }
+    
+    .course-card h4 {
+        font-size: 1.1rem;
+    }
+    
+    .course-description {
+        font-size: 1rem;
+    }
+    
+    /* Projects Section */
+    .projects-section {
+        padding: 2.5rem;
+    }
+    
+    .project-card {
+        padding: 2rem;
+    }
+    
+    .project-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    /* Credits Total */
+    .credits-total {
+        font-size: 1.3rem;
+        padding: 1.5rem;
+    }
+    
+    /* Stats Grid */
+    .stat-item {
+        padding: 2rem;
+    }
+    
+    .stat-item h3 {
+        font-size: 2.5rem;
+    }
+    
+    .stat-item p {
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 3rem;
+    }
+    
+    .social-links {
+        gap: 2rem;
+    }
+    
+    .social-links svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Large Desktop: 1400px en adelante */
+@media (min-width: 1400px) {
+    
+    main {
+        max-width: 1400px;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    /* Course Cards - 4 columns on very large screens */
+    .course-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Hover effects for larger screens only */
+@media (hover: hover) {
+    .course-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .project-card:hover {
+        transform: translateX(8px);
+    }
+    
+    .filter-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+}
+
+/* Print Styles */
+@media print {
+    
+    * {
+        background: white !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    header,
+    nav,
+    footer,
+    .hamburger,
+    .filter-buttons,
+    .social-links,
+    .btn {
+        display: none !important;
+    }
+    
+    main {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .course-card,
+    .project-card,
+    .profile-section,
+    .certificate-section,
+    .projects-section {
+        page-break-inside: avoid;
+        border: 1px solid #ddd;
+        margin-bottom: 1rem;
+    }
+    
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+}
