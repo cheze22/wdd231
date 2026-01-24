@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,22 @@
     <meta name="author" content="Cristhian Nefi Dorado Aguilar">
     
     <!-- Facebook Open Graph Meta Tags -->
- <!-- Facebook Open Graph Meta Tags -->
-<meta property="og:title" content="Directory of members of the La Paz Chamber of Commerce">
-<meta property="og:description" content="Discover the member companies of our chamber of commerce">
-<meta property="og:image" content="https://cheze22.github.io/wdd231/chamber/images/chamber-logo.png">
-<meta property="og:url" content="https://cheze22.github.io/wdd231/chamber/directory.html">
-<meta property="og:type" content="website">
+    <meta property="og:title" content="Directory of members of the La Paz Chamber of Commerce">
+    <meta property="og:description" content="Discover the member companies of our chamber of commerce">
+    <meta property="og:image" content="https://cheze22.github.io/wdd231/chamber/images/chamber-logo.png">
+    <meta property="og:url" content="https://cheze22.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
     
     <title>Directory - La Paz Chamber of Commerce</title>
     
     <!-- Favicon -->
- 
-
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     
     <!-- CSS Files -->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -34,11 +35,11 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <img src="images/image.png" alt="Logo Chamber of Commerce">
+                <img src="images/image.png" alt="Logo Chamber of Commerce La Paz">
                 <h1>Chamber of Commerce<br><span>La Paz</span></h1>
             </div>
             
-            <button id="menu-toggle" aria-label="open nav">
+            <button id="menu-toggle" aria-label="Open navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -60,14 +61,12 @@
     <!-- Main Content -->
     <main>
         <div class="directory-container">
-            <h2>Member Directory
-
-            </h2>
+            <h2>Member Directory</h2>
             <p class="intro-text">Get to know the companies that are part of our chamber of commerce and contribute to the economic development of La Paz.</p>
             
             <!-- View Toggle Buttons -->
             <div class="view-controls">
-                <button id="grid-view" class="view-btn active" aria-label="another pv">
+                <button id="grid-view" class="view-btn active" aria-label="Grid view">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="3" y="3" width="7" height="7"></rect>
                         <rect x="14" y="3" width="7" height="7"></rect>
@@ -76,7 +75,7 @@
                     </svg>
                     Grid
                 </button>
-                <button id="list-view" class="view-btn" aria-label="Vista de lista">
+                <button id="list-view" class="view-btn" aria-label="List view">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="8" y1="6" x2="21" y2="6"></line>
                         <line x1="8" y1="12" x2="21" y2="12"></line>
@@ -101,7 +100,7 @@
         <div class="footer-container">
             <div class="footer-info">
                 <div class="footer-section contact-info">
-                    <h3>Cámara de Comercio La Paz</h3>
+                    <h3>Chamber of Commerce La Paz</h3>
                     <p>📍 Av. Mariscal Santa Cruz 1392</p>
                     <p>La Paz, Bolivia</p>
                     <p>📞 +591 2 235-1010</p>
@@ -109,7 +108,7 @@
                 </div>
                 
                 <div class="footer-section social-media">
-                    <h3>Follow us</h3>
+                    <h3>Follow Us</h3>
                     <div class="social-links">
                         <a href="https://facebook.com" target="_blank" aria-label="Facebook">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -130,20 +129,20 @@
                 </div>
                 
                 <div class="footer-section newsletter">
-                    <h3>Newsletterr</h3>
+                    <h3>Newsletter</h3>
                     <p>Get our newsletter</p>
                     <form class="newsletter-form">
-                        <input type="email" placeholder="Tu email" aria-label="Email para newsletter">
-                        <button type="submit">Suscribirse</button>
+                        <input type="email" placeholder="Your email" aria-label="Email for newsletter">
+                        <button type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> Directory - La Paz Chamber of Commerce all rights reserved </p>
+                <p>&copy; <span id="current-year"></span> Directory - La Paz Chamber of Commerce. All rights reserved.</p>
                 <p class="developer-info">
                     <strong>Cristhian Nefi Dorado Aguilar</strong> | WDD 231 | 
-                    Última modificación: <span id="last-modified"></span>
+                    Last modified: <span id="last-modified"></span>
                 </p>
             </div>
         </div>
