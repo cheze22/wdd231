@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Altiplano Tech Solutions",
+    "address": "Av. Arce 2345, Edificio Torre Central, Piso 8, La Paz",
+    "phone": "+591 2 244-5566",
+    "website": "https://altiplanosolutions.bo",
+    "image": "altiplano.png",
+    "membershipLevel": 3,
+    "description": "Desarrollo de software y soluciones tecnológicas empresariales",
+    "founded": 2018,
+    "category": "Tecnología"
+  },
+  {
+    "name": "Restaurante Gustu",
+    "address": "Calle 10, Calacoto, La Paz",
+    "phone": "+591 2 211-7491",
+    "website": "https://gustu.bo",
+    "image": "gustu.jpeg",
+    "membershipLevel": 2,
+    "description": "Alta cocina boliviana con ingredientes locales",
+    "founded": 2013,
+    "category": "Gastronomía"
+  },
+  {
+    "name": "Constructora Illimani",
+    "address": "Av. 6 de Agosto 2170, San Miguel, La Paz",
+    "phone": "+591 2 277-3344",
+    "website": "https://constructoraillimani.com",
+    "image": "illimani.png",
+    "membershipLevel": 3,
+    "description": "Construcción residencial y comercial",
+    "founded": 2005,
+    "category": "Construcción"
+  },
+  {
+    "name": "Farmacia Chavez",
+    "address": "Av. Buenos Aires 1234, La Paz",
+    "phone": "+591 2 220-1122",
+    "website": "https://farmaciachavez.bo",
+    "image": "farmacia .jpeg",
+    "membershipLevel": 1,
+    "description": "Farmacia con servicio 24 horas",
+    "founded": 1995,
+    "category": "Salud"
+  },
+  {
+    "name": "Café Cultural Vida Verde",
+    "address": "Calle Jaén 722, Centro Histórico, La Paz",
+    "phone": "+591 2 228-5599",
+    "website": "https://vidaverdecafe.com",
+    "image": "vida.jpeg",
+    "membershipLevel": 1,
+    "description": "Café orgánico y espacio cultural",
+    "founded": 2019,
+    "category": "Gastronomía"
+  },
+  {
+    "name": "Textiles Andinos Export",
+    "address": "Zona Sopocachi, Calle 20 de Octubre 2331, La Paz",
+    "phone": "+591 2 242-7788",
+    "website": "https://textilesandinos.bo",
+    "image": "textiles.png",
+    "membershipLevel": 2,
+    "description": "Exportación de textiles y artesanías bolivianas",
+    "founded": 2010,
+    "category": "Comercio"
+  },
+  {
+    "name": "Despacho Legal Zuazo & Asociados",
+    "address": "Av. 16 de Julio 1490, Edificio Mariscal Ballivián, Piso 12, La Paz",
+    "phone": "+591 2 231-4455",
+    "website": "https://zuazolegal.bo",
+    "image": "zuazo.png",
+    "membershipLevel": 3,
+    "description": "Asesoría legal empresarial y corporativa",
+    "founded": 2008,
+    "category": "Servicios Profesionales"
+  },
+  {
+    "name": "Turismo Titicaca Adventures",
+    "address": "Calle Sagárnaga 339, La Paz",
+    "phone": "+591 2 245-6677",
+    "website": "https://titicacaadventures.com",
+    "image": "titicaca.png",
+    "membershipLevel": 2,
+    "description": "Tours y experiencias turísticas en Bolivia",
+    "founded": 2015,
+    "category": "Turismo"
+  }
+]
