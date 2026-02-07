@@ -317,3 +317,96 @@
         content: " (" attr(href) ")";
     }
 }
+
+/* ============================================
+   JOIN PAGE - TABLET & DESKTOP
+   ============================================ */
+
+@media (min-width: 768px) {
+    
+    /* Join Container - Side by side layout */
+    .join-container {
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+    
+    .form-section {
+        padding: 2rem;
+    }
+    
+    /* Membership Cards - Stacked vertically on right side */
+    .membership-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Detail Items - Better spacing */
+    .detail-item {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 1rem;
+        flex-direction: row;
+    }
+    
+    .detail-item strong {
+        font-size: 1rem;
+    }
+    
+    /* Action Buttons */
+    .action-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .action-buttons .btn {
+        flex: 1;
+        max-width: 250px;
+    }
+    
+    .thankyou-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .form-section {
+        padding: 2.5rem;
+    }
+    
+    .confirmation-section {
+        padding: 2.5rem;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form textarea {
+        font-size: 1.05rem;
+        padding: 1rem;
+    }
+    
+    .membership-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .membership-card .price {
+        font-size: 1.8rem;
+    }
+    
+    /* Modal larger on desktop */
+    .modal {
+        max-width: 600px;
+        padding: 2.5rem;
+    }
+    
+    .modal-price {
+        font-size: 1.5rem;
+    }
+    
+    /* Detail Items */
+    .detail-item {
+        grid-template-columns: 180px 1fr;
+    }
+}
+

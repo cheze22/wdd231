@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Chamber of Commerce - Membership Application Form">
+    <meta name="author" content="Cristhian Nefi Dorado Aguilar">
+    <title>Join Us - Chamber of Commerce</title>
+    
+    <!-- CSS Files -->
+  <link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Chamber Logo" class="logo">
+            <span class="student-name">Cristhian Nefi Dorado Aguilar</span>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    
+    <!-- Navigation -->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html" class="active">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+        <h1>Join the Chamber of Commerce</h1>
+        
+        <div class="join-container">
+            <!-- Membership Form -->
+            <section class="form-section">
+                <h2>Membership Application</h2>
+                
+                <form method="get" action="thankyou.html" id="membershipForm">
+                    
+                    <!-- First Name -->
+                    <label for="fname">
+                        First Name *
+                        <input 
+                            type="text" 
+                            id="fname" 
+                            name="fname" 
+                            title="Enter your first name"
+                            autocomplete="given-name"
+                            required>
+                    </label>
+                    
+                    <!-- Last Name -->
+                    <label for="lname">
+                        Last Name *
+                        <input 
+                            type="text" 
+                            id="lname" 
+                            name="lname" 
+                            title="Enter your last name"
+                            autocomplete="family-name"
+                            required>
+                    </label>
+                    
+                    <!-- Organizational Title -->
+                    <label for="title">
+                        Organizational Title
+                        <input 
+                            type="text" 
+                            id="title" 
+                            name="title" 
+                            title="Enter your title or position (minimum 7 characters, letters, spaces, and hyphens only)"
+                            autocomplete="organization-title"
+                            pattern="[A-Za-z\s\-]{7,}"
+                            placeholder="e.g., Chief Executive Officer">
+                    </label>
+                    
+                    <!-- Email -->
+                    <label for="email">
+                        Email Address *
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            title="Enter your email address"
+                            autocomplete="email"
+                            placeholder="example@email.com"
+                            required>
+                    </label>
+                    
+                    <!-- Mobile Phone -->
+                    <label for="phone">
+                        Mobile Phone *
+                        <input 
+                            type="tel" 
+                            id="phone" 
+                            name="phone" 
+                            title="Enter your mobile phone number"
+                            autocomplete="tel"
+                            required>
+                    </label>
+                    
+                    <!-- Business/Organization Name -->
+                    <label for="organization">
+                        Business/Organization Name *
+                        <input 
+                            type="text" 
+                            id="organization" 
+                            name="organization" 
+                            title="Enter your business or organization name"
+                            autocomplete="organization"
+                            required>
+                    </label>
+                    
+                    <!-- Membership Level -->
+                    <fieldset>
+                        <legend>Membership Level *</legend>
+                        
+                        <label for="np">
+                            <input 
+                                type="radio" 
+                                id="np" 
+                                name="membership" 
+                                value="np">
+                            NP Membership (Non Profit - Free)
+                        </label>
+                        
+                        <label for="bronze">
+                            <input 
+                                type="radio" 
+                                id="bronze" 
+                                name="membership" 
+                                value="bronze">
+                            Bronze Membership
+                        </label>
+                        
+                        <label for="silver">
+                            <input 
+                                type="radio" 
+                                id="silver" 
+                                name="membership" 
+                                value="silver">
+                            Silver Membership
+                        </label>
+                        
+                        <label for="gold">
+                            <input 
+                                type="radio" 
+                                id="gold" 
+                                name="membership" 
+                                value="gold">
+                            Gold Membership
+                        </label>
+                    </fieldset>
+                    
+                    <!-- Business Description -->
+                    <label for="description">
+                        Business/Organization Description
+                        <textarea 
+                            id="description" 
+                            name="description" 
+                            title="Describe your business or organization"
+                            rows="5"
+                            placeholder="Tell us about your business..."></textarea>
+                    </label>
+                    
+                    <!-- Hidden Timestamp -->
+                    <input 
+                        type="hidden" 
+                        id="timestamp" 
+                        name="timestamp" 
+                        value="">
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn">Submit Application</button>
+                    
+                </form>
+            </section>
+            
+            <!-- Membership Level Cards -->
+            <section class="membership-cards">
+                <h2>Membership Levels</h2>
+                
+                <!-- NP Membership Card -->
+                <div class="membership-card">
+                    <h3>NP Membership</h3>
+                    <p class="price">Free</p>
+                    <p>For Non-Profit Organizations</p>
+                    <button class="btn-info" onclick="openModal('npModal')">Learn More</button>
+                </div>
+                
+                <!-- Bronze Membership Card -->
+                <div class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <p class="price">$50/month</p>
+                    <p>Perfect for small businesses</p>
+                    <button class="btn-info" onclick="openModal('bronzeModal')">Learn More</button>
+                </div>
+                
+                <!-- Silver Membership Card -->
+                <div class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <p class="price">$100/month</p>
+                    <p>Great for growing companies</p>
+                    <button class="btn-info" onclick="openModal('silverModal')">Learn More</button>
+                </div>
+                
+                <!-- Gold Membership Card -->
+                <div class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <p class="price">$200/month</p>
+                    <p>Premium benefits for leaders</p>
+                    <button class="btn-info" onclick="openModal('goldModal')">Learn More</button>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Modals -->
+        
+        <!-- NP Modal -->
+        <dialog id="npModal" class="modal">
+            <button class="close-modal" onclick="closeModal('npModal')">✕</button>
+            <h2>NP Membership Benefits</h2>
+            <ul>
+                <li>Free listing in chamber directory</li>
+                <li>Access to networking events</li>
+                <li>Monthly newsletter subscription</li>
+                <li>Community resource access</li>
+                <li>Volunteer opportunities</li>
+            </ul>
+            <p class="modal-price">FREE for Non-Profit Organizations</p>
+        </dialog>
+        
+        <!-- Bronze Modal -->
+        <dialog id="bronzeModal" class="modal">
+            <button class="close-modal" onclick="closeModal('bronzeModal')">✕</button>
+            <h2>Bronze Membership Benefits</h2>
+            <ul>
+                <li>All NP benefits included</li>
+                <li>Featured directory listing</li>
+                <li>Quarterly business workshops</li>
+                <li>15% discount on event tickets</li>
+                <li>Social media promotion (monthly)</li>
+                <li>Business referral opportunities</li>
+            </ul>
+            <p class="modal-price">$50/month</p>
+        </dialog>
+        
+        <!-- Silver Modal -->
+        <dialog id="silverModal" class="modal">
+            <button class="close-modal" onclick="closeModal('silverModal')">✕</button>
+            <h2>Silver Membership Benefits</h2>
+            <ul>
+                <li>All Bronze benefits included</li>
+                <li>Premium directory placement</li>
+                <li>Monthly spotlight on homepage</li>
+                <li>25% discount on event tickets</li>
+                <li>Ribbon cutting ceremony</li>
+                <li>Weekly social media features</li>
+                <li>Member-to-member discounts</li>
+                <li>Priority event registration</li>
+            </ul>
+            <p class="modal-price">$100/month</p>
+        </dialog>
+        
+        <!-- Gold Modal -->
+        <dialog id="goldModal" class="modal">
+            <button class="close-modal" onclick="closeModal('goldModal')">✕</button>
+            <h2>Gold Membership Benefits</h2>
+            <ul>
+                <li>All Silver benefits included</li>
+                <li>Top-tier directory placement with logo</li>
+                <li>Weekly homepage spotlight</li>
+                <li>50% discount on all events</li>
+                <li>Exclusive VIP networking events</li>
+                <li>Daily social media promotion</li>
+                <li>Free booth at chamber expo</li>
+                <li>Business advocacy & consulting</li>
+                <li>Press release distribution</li>
+                <li>Board of Directors nomination eligibility</li>
+            </ul>
+            <p class="modal-price">$200/month - Best Value!</p>
+        </dialog>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                    </svg>
+                </a>
+            </div>
+            <p class="copyright">&copy; <span id="currentYear"></span> Chamber of Commerce | Cristhian Nefi Dorado Aguilar</p>
+            <p class="last-modified">Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="scripts/join.js"></script>
+    
+</body>
+</html>
