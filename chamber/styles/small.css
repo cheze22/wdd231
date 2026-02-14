@@ -15,8 +15,8 @@
     --text-color: #333333;
     --text-light: #666666;
     
-    --font-primary: 'Arial', 'Helvetica', sans-serif;
-    --font-secondary: 'Georgia', serif;
+    --font-primary: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    --font-secondary: 'Open Sans', 'Georgia', serif;
     
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
