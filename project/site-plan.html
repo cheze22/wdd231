@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Plan | Eco-Adventure Hub - Cristhian Nefi Dorado Aguilar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/site-plan.css">
 </head>
 <body>
     <header>
-        <h1>Eco-Adventure Hub Site Plan</h1>
         <p class="author">Author: Cristhian Nefi Dorado Aguilar</p>
     </header>
 
     <main>
+        <h1>Eco-Adventure Hub Site Plan</h1>
+
         <section id="site-name">
             <h2>Site Name</h2>
             <p><strong>Eco-Adventure Hub</strong></p>
@@ -24,54 +28,57 @@
             <p>The purpose of Eco-Adventure Hub is to provide a specialized platform for sustainable tourism. It offers curated ecological trail maps, expert advice on biodegradable gear, and a registration system for community-led environmental conservation expeditions.</p>
         </section>
 
+        <section id="api-usage">
+            <h2>API Integration</h2>
+            <p>The site will integrate the <strong>OpenWeatherMap API</strong> to provide real-time weather alerts for hikers. This ensures that users can check trail safety conditions before starting their eco-adventures.</p>
+        </section>
+
         <section id="scenarios">
             <h2>Target Audience Scenarios</h2>
             <div class="scenario-card">
-                <p><strong>Scenario 1:</strong> "I am looking for a hiking trail that is beginner-friendly but also has a high 'Eco-Rating' to ensure my visit has minimal impact on local wildlife. Where can I find this data?"</p>
+                <p><strong>Scenario 1:</strong> "I am looking for a hiking trail that is beginner-friendly but also has a high 'Eco-Rating'."</p>
             </div>
             <div class="scenario-card">
-                <p><strong>Scenario 2:</strong> "I want to join a group of like-minded explorers for a weekend cleanup hike. Is there a calendar or registration form for upcoming events?"</p>
+                <p><strong>Scenario 2:</strong> "I want to join a group of like-minded explorers for a weekend cleanup hike."</p>
             </div>
         </section>
 
         <section id="color-scheme">
             <h2>Color Scheme</h2>
-            <p>The palette is designed to reflect the organic tones of the forest and earth:</p>
             <div class="color-swatch-container">
-                <div class="swatch" style="background-color: #2D5A27;">Primary: #2D5A27 (Forest Green)</div>
-                <div class="swatch" style="background-color: #E07A5F;">Accent: #E07A5F (Terra Cotta)</div>
-                <div class="swatch" style="background-color: #F4F1DE; color: #3d405b;">Background: #F4F1DE (Cream)</div>
+                <div class="swatch" style="background-color: #2D5A27;">Primary: #2D5A27</div>
+                <div class="swatch" style="background-color: #E07A5F;">Accent: #E07A5F</div>
+                <div class="swatch" style="background-color: #F4F1DE; color: #3d405b;">Background: #F4F1DE</div>
             </div>
         </section>
 
         <section id="typography">
             <h2>Typography</h2>
-            <div class="font-preview">
-                <h3 style="font-family: 'Montserrat', sans-serif;">Montserrat - Headings</h3>
-                <p style="font-family: 'Open Sans', sans-serif;">Open Sans - Body copy for high readability and professional aesthetic.</p>
-            </div>
+            <p style="font-family: 'Montserrat', sans-serif;">Montserrat - Headings</p>
+            <p style="font-family: 'Open Sans', sans-serif;">Open Sans - Body Copy</p>
         </section>
 
         <section id="wireframes">
-            <h2>Wireframes (Conceptual Layout)</h2>
+            <h2>Wireframes</h2>
             <div class="wf-container">
                 <div class="wf-box">
-                    <h3>Mobile Layout</h3>
+                    <h3>Home Page (Mobile)</h3>
                     <div class="wireframe mobile">
-                        <div class="wf-part nav">Nav (Hamburger)</div>
-                        <div class="wf-part hero">Hero Image</div>
-                        <div class="wf-part body">Stacked Content</div>
+                        <div class="wf-part">Menu ☰</div>
+                        <div class="wf-part hero">Hero Section</div>
+                        <div class="wf-part">Weather API Widget</div>
+                        <div class="wf-part">Featured Trails</div>
                         <div class="wf-part footer">Footer</div>
                     </div>
                 </div>
                 <div class="wf-box">
-                    <h3>Desktop Layout</h3>
+                    <h3>Home Page (Desktop)</h3>
                     <div class="wireframe desktop">
-                        <div class="wf-part nav">Logo & Horizontal Navigation</div>
-                        <div class="wf-part hero-large">Large Hero Slider</div>
+                        <div class="wf-part">Logo --- Navigation Links --- Search</div>
+                        <div class="wf-part hero-large">Large Hero Image with CTA</div>
                         <div class="wf-row">
-                            <div class="wf-part main-content">Main Articles</div>
-                            <div class="wf-part sidebar">Sidebar</div>
+                            <div class="wf-part">Main Content (Trails & Bio-Gear)</div>
+                            <div class="wf-part">Weather API & Sidebar</div>
                         </div>
                         <div class="wf-part footer">Footer</div>
                     </div>
