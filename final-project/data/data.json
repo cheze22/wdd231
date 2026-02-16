@@ -1,0 +1,828 @@
+{
+  "courses": [
+    {
+      "id": "course-001",
+      "title": "Complete Web Development Bootcamp",
+      "description": "Master modern web development with HTML, CSS, JavaScript, React, Node.js, and MongoDB. Build real-world projects and deploy them to production.",
+      "category": "technology",
+      "level": "beginner",
+      "price": 89.99,
+      "originalPrice": 129.99,
+      "rating": 4.8,
+      "studentsEnrolled": 12543,
+      "duration": "42.5",
+      "lessonsCount": 245,
+      "lastUpdated": "2025-02-01",
+      "instructor": {
+        "id": "instructor-001",
+        "name": "Sarah Chen",
+        "title": "Senior Full Stack Developer"
+      },
+      "image": "images/courses/1.webp",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+      "requirements": ["Basic computer knowledge", "No programming experience required"],
+      "whatYouWillLearn": [
+        "Build complete web applications from scratch",
+        "Master frontend and backend development",
+        "Deploy applications to the cloud",
+        "Work with modern frameworks and tools"
+      ]
+    },
+    {
+      "id": "course-002",
+      "title": "Python Programming Masterclass",
+      "description": "Learn Python from basics to advanced concepts. Master data structures, algorithms, OOP, web scraping, automation, and data science fundamentals.",
+      "category": "technology",
+      "level": "beginner",
+      "price": 79.99,
+      "originalPrice": 119.99,
+      "rating": 4.9,
+      "studentsEnrolled": 18234,
+      "duration": "38",
+      "lessonsCount": 198,
+      "lastUpdated": "2025-01-28",
+      "instructor": {
+        "id": "instructor-002",
+        "name": "Dr. Marcus Rodriguez",
+        "title": "AI Research Scientist"
+      },
+      "image": "images/courses/2.webp",
+      "skills": ["Python", "Data Structures", "Algorithms", "OOP", "Automation"],
+      "requirements": ["Basic computer skills", "Willingness to learn"],
+      "whatYouWillLearn": [
+        "Write clean, efficient Python code",
+        "Build automation scripts",
+        "Understand data structures and algorithms",
+        "Work with APIs and web scraping"
+      ]
+    },
+    {
+      "id": "course-003",
+      "title": "Machine Learning A-Z",
+      "description": "Comprehensive machine learning course covering supervised and unsupervised learning, neural networks, deep learning with TensorFlow and PyTorch.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 94.99,
+      "originalPrice": 149.99,
+      "rating": 4.7,
+      "studentsEnrolled": 9876,
+      "duration": "52",
+      "lessonsCount": 312,
+      "lastUpdated": "2025-02-10",
+      "instructor": {
+        "id": "instructor-002",
+        "name": "Dr. Marcus Rodriguez",
+        "title": "AI Research Scientist"
+      },
+      "image": "images/courses/3.webp",
+      "skills": ["Machine Learning", "Python", "TensorFlow", "PyTorch", "Neural Networks"],
+      "requirements": ["Python programming knowledge", "Basic mathematics understanding"],
+      "whatYouWillLearn": [
+        "Build machine learning models",
+        "Implement neural networks",
+        "Work with real datasets",
+        "Deploy ML models to production"
+      ]
+    },
+    {
+      "id": "course-004",
+      "title": "React - The Complete Guide",
+      "description": "Master React.js including hooks, context API, Redux, Next.js, and TypeScript. Build modern, scalable web applications with best practices.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 84.99,
+      "originalPrice": 124.99,
+      "rating": 4.8,
+      "studentsEnrolled": 15432,
+      "duration": "45",
+      "lessonsCount": 267,
+      "lastUpdated": "2025-02-05",
+      "instructor": {
+        "id": "instructor-001",
+        "name": "Sarah Chen",
+        "title": "Senior Full Stack Developer"
+      },
+      "image": "images/courses/4.webp",
+      "skills": ["React", "JavaScript", "Redux", "Next.js", "TypeScript"],
+      "requirements": ["HTML, CSS, JavaScript fundamentals", "Basic programming concepts"],
+      "whatYouWillLearn": [
+        "Build modern React applications",
+        "Master React hooks and state management",
+        "Work with Redux and Context API",
+        "Deploy React apps professionally"
+      ]
+    },
+    {
+      "id": "course-005",
+      "title": "iOS Development with Swift",
+      "description": "Build native iOS applications using Swift and SwiftUI. Learn Xcode, UIKit, Core Data, and app deployment to the App Store.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 99.99,
+      "originalPrice": 159.99,
+      "rating": 4.6,
+      "studentsEnrolled": 7654,
+      "duration": "48",
+      "lessonsCount": 223,
+      "lastUpdated": "2025-01-20",
+      "instructor": {
+        "id": "instructor-003",
+        "name": "James Patterson",
+        "title": "Senior iOS Developer"
+      },
+      "image": "images/courses/5.webp",
+      "skills": ["Swift", "SwiftUI", "Xcode", "UIKit", "Core Data"],
+      "requirements": ["Mac computer required", "Basic programming knowledge helpful"],
+      "whatYouWillLearn": [
+        "Build iOS apps from scratch",
+        "Master Swift and SwiftUI",
+        "Implement data persistence",
+        "Publish apps to App Store"
+      ]
+    },
+    {
+      "id": "course-006",
+      "title": "Cybersecurity Fundamentals",
+      "description": "Learn ethical hacking, network security, penetration testing, cryptography, and security best practices to protect systems and data.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 89.99,
+      "originalPrice": 139.99,
+      "rating": 4.7,
+      "studentsEnrolled": 8923,
+      "duration": "40",
+      "lessonsCount": 185,
+      "lastUpdated": "2025-02-08",
+      "instructor": {
+        "id": "instructor-004",
+        "name": "Alex Morgan",
+        "title": "Cybersecurity Specialist"
+      },
+      "image": "images/courses/6.webp",
+      "skills": ["Ethical Hacking", "Network Security", "Penetration Testing", "Cryptography"],
+      "requirements": ["Basic networking knowledge", "Understanding of computer systems"],
+      "whatYouWillLearn": [
+        "Understand security vulnerabilities",
+        "Perform penetration testing",
+        "Implement security measures",
+        "Protect against cyber threats"
+      ]
+    },
+    {
+      "id": "course-007",
+      "title": "Cloud Computing with AWS",
+      "description": "Master Amazon Web Services including EC2, S3, Lambda, RDS, and CloudFormation. Prepare for AWS Solutions Architect certification.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 94.99,
+      "originalPrice": 144.99,
+      "rating": 4.8,
+      "studentsEnrolled": 11234,
+      "duration": "35",
+      "lessonsCount": 156,
+      "lastUpdated": "2025-02-12",
+      "instructor": {
+        "id": "instructor-005",
+        "name": "Priya Sharma",
+        "title": "Cloud Architect"
+      },
+      "image": "images/courses/7.webp",
+      "skills": ["AWS", "Cloud Computing", "EC2", "S3", "Lambda"],
+      "requirements": ["Basic IT knowledge", "Understanding of web technologies"],
+      "whatYouWillLearn": [
+        "Deploy applications on AWS",
+        "Design scalable cloud architectures",
+        "Manage AWS services effectively",
+        "Prepare for AWS certification"
+      ]
+    },
+    {
+      "id": "course-008",
+      "title": "Data Science with Python",
+      "description": "Complete data science course covering pandas, NumPy, matplotlib, scikit-learn, statistics, and data visualization techniques.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 87.99,
+      "originalPrice": 134.99,
+      "rating": 4.7,
+      "studentsEnrolled": 10567,
+      "duration": "44",
+      "lessonsCount": 234,
+      "lastUpdated": "2025-01-25",
+      "instructor": {
+        "id": "instructor-002",
+        "name": "Dr. Marcus Rodriguez",
+        "title": "AI Research Scientist"
+      },
+      "image": "images/courses/8.webp",
+      "skills": ["Python", "Pandas", "NumPy", "Data Visualization", "Statistics"],
+      "requirements": ["Python basics", "Basic mathematics"],
+      "whatYouWillLearn": [
+        "Analyze complex datasets",
+        "Create data visualizations",
+        "Build predictive models",
+        "Extract insights from data"
+      ]
+    },
+    {
+      "id": "course-009",
+      "title": "Docker & Kubernetes Mastery",
+      "description": "Learn containerization with Docker and orchestration with Kubernetes. Deploy microservices, manage clusters, and implement CI/CD pipelines.",
+      "category": "business",
+      "level": "advanced",
+      "price": 92.99,
+      "originalPrice": 149.99,
+      "rating": 4.8,
+      "studentsEnrolled": 6789,
+      "duration": "28",
+      "lessonsCount": 143,
+      "lastUpdated": "2025-02-03",
+      "instructor": {
+        "id": "instructor-005",
+        "name": "Priya Sharma",
+        "title": "Cloud Architect"
+      },
+      "image": "images/courses/9.webp",
+      "skills": ["Docker", "Kubernetes", "Microservices", "CI/CD", "DevOps"],
+      "requirements": ["Linux basics", "Understanding of web applications"],
+      "whatYouWillLearn": [
+        "Containerize applications with Docker",
+        "Orchestrate containers with Kubernetes",
+        "Deploy microservices architectures",
+        "Implement CI/CD workflows"
+      ]
+    },
+    {
+      "id": "course-010",
+      "title": "Android Development with Kotlin",
+      "description": "Build native Android apps using Kotlin, Jetpack Compose, Room database, and Material Design. Publish apps to Google Play Store.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 89.99,
+      "originalPrice": 139.99,
+      "rating": 4.6,
+      "studentsEnrolled": 8234,
+      "duration": "46",
+      "lessonsCount": 218,
+      "lastUpdated": "2025-01-30",
+      "instructor": {
+        "id": "instructor-006",
+        "name": "Raj Patel",
+        "title": "Android Development Lead"
+      },
+      "image": "images/courses/10.webp",
+      "skills": ["Kotlin", "Android", "Jetpack Compose", "Material Design", "Room"],
+      "requirements": ["Basic programming knowledge", "Android Studio installation"],
+      "whatYouWillLearn": [
+        "Build Android apps with Kotlin",
+        "Design beautiful UIs with Jetpack Compose",
+        "Implement data persistence",
+        "Publish apps to Play Store"
+      ]
+    },
+    {
+      "id": "course-011",
+      "title": "Blockchain Development",
+      "description": "Learn blockchain technology, smart contracts with Solidity, Ethereum development, Web3.js, and decentralized application (DApp) creation.",
+      "category": "technology",
+      "level": "advanced",
+      "price": 109.99,
+      "originalPrice": 179.99,
+      "rating": 4.5,
+      "studentsEnrolled": 5432,
+      "duration": "36",
+      "lessonsCount": 167,
+      "lastUpdated": "2025-02-07",
+      "instructor": {
+        "id": "instructor-007",
+        "name": "David Kim",
+        "title": "Blockchain Architect"
+      },
+      "image": "images/courses/11.webp",
+      "skills": ["Blockchain", "Solidity", "Ethereum", "Web3.js", "Smart Contracts"],
+      "requirements": ["JavaScript knowledge", "Understanding of cryptography"],
+      "whatYouWillLearn": [
+        "Understand blockchain fundamentals",
+        "Write smart contracts in Solidity",
+        "Build decentralized applications",
+        "Deploy to Ethereum network"
+      ]
+    },
+    {
+      "id": "course-012",
+      "title": "SQL & Database Design",
+      "description": "Master SQL, database design, PostgreSQL, MySQL, query optimization, indexing, transactions, and database administration.",
+      "category": "technology",
+      "level": "beginner",
+      "price": 69.99,
+      "originalPrice": 109.99,
+      "rating": 4.7,
+      "studentsEnrolled": 13456,
+      "duration": "26",
+      "lessonsCount": 142,
+      "lastUpdated": "2025-01-22",
+      "instructor": {
+        "id": "instructor-008",
+        "name": "Linda Martinez",
+        "title": "Database Administrator"
+      },
+      "image": "images/courses/12.webp",
+      "skills": ["SQL", "PostgreSQL", "MySQL", "Database Design", "Query Optimization"],
+      "requirements": ["Basic computer skills", "No prior experience needed"],
+      "whatYouWillLearn": [
+        "Write complex SQL queries",
+        "Design efficient databases",
+        "Optimize query performance",
+        "Manage database systems"
+      ]
+    },
+    {
+      "id": "course-013",
+      "title": "GraphQL API Development",
+      "description": "Build modern APIs with GraphQL, Apollo Server, authentication, subscriptions, and integrate with React and Node.js applications.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 82.99,
+      "originalPrice": 129.99,
+      "rating": 4.6,
+      "studentsEnrolled": 6234,
+      "duration": "24",
+      "lessonsCount": 128,
+      "lastUpdated": "2025-02-11",
+      "instructor": {
+        "id": "instructor-001",
+        "name": "Sarah Chen",
+        "title": "Senior Full Stack Developer"
+      },
+      "image": "images/courses/13.webp",
+      "skills": ["GraphQL", "Apollo", "Node.js", "React", "API Development"],
+      "requirements": ["JavaScript knowledge", "Basic API understanding"],
+      "whatYouWillLearn": [
+        "Build GraphQL APIs",
+        "Implement authentication",
+        "Create real-time subscriptions",
+        "Integrate with frontend frameworks"
+      ]
+    },
+    {
+      "id": "course-014",
+      "title": "Game Development with Unity",
+      "description": "Create 2D and 3D games using Unity game engine and C#. Learn physics, animations, AI, multiplayer, and publish to multiple platforms.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 94.99,
+      "originalPrice": 149.99,
+      "rating": 4.8,
+      "studentsEnrolled": 9123,
+      "duration": "54",
+      "lessonsCount": 289,
+      "lastUpdated": "2025-01-18",
+      "instructor": {
+        "id": "instructor-009",
+        "name": "Tom Anderson",
+        "title": "Game Developer"
+      },
+      "image": "images/courses/14.webp",
+      "skills": ["Unity", "C#", "Game Design", "3D Modeling", "Animation"],
+      "requirements": ["Basic programming knowledge", "Unity installation"],
+      "whatYouWillLearn": [
+        "Build 2D and 3D games",
+        "Implement game mechanics",
+        "Create animations and effects",
+        "Publish to multiple platforms"
+      ]
+    },
+    {
+      "id": "course-015",
+      "title": "DevOps Engineering Complete",
+      "description": "Master DevOps practices including Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, monitoring, and infrastructure as code.",
+      "category": "technology",
+      "level": "advanced",
+      "price": 99.99,
+      "originalPrice": 159.99,
+      "rating": 4.7,
+      "studentsEnrolled": 7891,
+      "duration": "42",
+      "lessonsCount": 201,
+      "lastUpdated": "2025-02-09",
+      "instructor": {
+        "id": "instructor-005",
+        "name": "Priya Sharma",
+        "title": "Cloud Architect"
+      },
+      "image": "images/courses/15.webp",
+      "skills": ["DevOps", "Jenkins", "Docker", "Kubernetes", "Terraform", "Ansible"],
+      "requirements": ["Linux knowledge", "Basic scripting skills"],
+      "whatYouWillLearn": [
+        "Implement CI/CD pipelines",
+        "Automate infrastructure deployment",
+        "Monitor and log applications",
+        "Apply DevOps best practices"
+      ]
+    },
+    {
+      "id": "course-016",
+      "title": "TypeScript Complete Course",
+      "description": "Master TypeScript from basics to advanced features. Learn types, interfaces, generics, decorators, and use with React and Node.js.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 74.99,
+      "originalPrice": 114.99,
+      "rating": 4.8,
+      "studentsEnrolled": 10234,
+      "duration": "22",
+      "lessonsCount": 134,
+      "lastUpdated": "2025-02-14",
+      "instructor": {
+        "id": "instructor-001",
+        "name": "Sarah Chen",
+        "title": "Senior Full Stack Developer"
+      },
+      "image": "images/courses/16.webp",
+      "skills": ["TypeScript", "JavaScript", "Node.js", "React", "Type Safety"],
+      "requirements": ["JavaScript fundamentals", "ES6+ knowledge"],
+      "whatYouWillLearn": [
+        "Write type-safe code",
+        "Use advanced TypeScript features",
+        "Integrate with frameworks",
+        "Build scalable applications"
+      ]
+    },
+    {
+      "id": "course-017",
+      "title": "Vue.js 3 Masterclass",
+      "description": "Complete Vue.js 3 course covering composition API, Vue Router, Vuex, Pinia state management, and building production-ready applications.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 79.99,
+      "originalPrice": 124.99,
+      "rating": 4.7,
+      "studentsEnrolled": 8567,
+      "duration": "38",
+      "lessonsCount": 198,
+      "lastUpdated": "2025-01-27",
+      "instructor": {
+        "id": "instructor-010",
+        "name": "Emma Wilson",
+        "title": "Frontend Architect"
+      },
+      "image": "images/courses/17.webp",
+      "skills": ["Vue.js", "JavaScript", "Vuex", "Pinia", "Vue Router"],
+      "requirements": ["HTML, CSS, JavaScript", "Basic web development knowledge"],
+      "whatYouWillLearn": [
+        "Build Vue.js applications",
+        "Master Composition API",
+        "Implement state management",
+        "Deploy Vue apps to production"
+      ]
+    },
+    {
+      "id": "course-018",
+      "title": "Flutter Mobile Development",
+      "description": "Build beautiful native mobile apps for iOS and Android using Flutter and Dart. Learn widgets, state management, and app deployment.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 89.99,
+      "originalPrice": 139.99,
+      "rating": 4.6,
+      "studentsEnrolled": 9345,
+      "duration": "44",
+      "lessonsCount": 215,
+      "lastUpdated": "2025-02-02",
+      "instructor": {
+        "id": "instructor-006",
+        "name": "Raj Patel",
+        "title": "Android Development Lead"
+      },
+      "image": "images/courses/18.webp",
+      "skills": ["Flutter", "Dart", "Mobile Development", "State Management", "Firebase"],
+      "requirements": ["Basic programming knowledge", "Flutter SDK installation"],
+      "whatYouWillLearn": [
+        "Build cross-platform mobile apps",
+        "Master Flutter widgets",
+        "Implement state management",
+        "Publish to App Store and Play Store"
+      ]
+    },
+    {
+      "id": "course-019",
+      "title": "AI Prompt Engineering",
+      "description": "Master prompt engineering for ChatGPT, GPT-4, Claude, and other AI models. Learn advanced techniques for business and development.",
+      "category": "technology",
+      "level": "beginner",
+      "price": 59.99,
+      "originalPrice": 99.99,
+      "rating": 4.8,
+      "studentsEnrolled": 14567,
+      "duration": "12",
+      "lessonsCount": 68,
+      "lastUpdated": "2025-02-13",
+      "instructor": {
+        "id": "instructor-002",
+        "name": "Dr. Marcus Rodriguez",
+        "title": "AI Research Scientist"
+      },
+      "image": "images/courses/19.webp",
+      "skills": ["AI", "Prompt Engineering", "ChatGPT", "GPT-4", "Claude"],
+      "requirements": ["No prerequisites required", "Interest in AI"],
+      "whatYouWillLearn": [
+        "Write effective AI prompts",
+        "Apply AI to business problems",
+        "Automate tasks with AI",
+        "Understand AI limitations"
+      ]
+    },
+    {
+      "id": "course-020",
+      "title": "Network Programming with Go",
+      "description": "Learn Go programming language and build network applications, microservices, REST APIs, and concurrent systems with goroutines.",
+      "category": "technology",
+      "level": "intermediate",
+      "price": 84.99,
+      "originalPrice": 129.99,
+      "rating": 4.6,
+      "studentsEnrolled": 6789,
+      "duration": "32",
+      "lessonsCount": 156,
+      "lastUpdated": "2025-01-24",
+      "instructor": {
+        "id": "instructor-011",
+        "name": "Michael Zhang",
+        "title": "Backend Engineer"
+      },
+      "image": "images/courses/20.webp",
+      "skills": ["Go", "Network Programming", "Microservices", "REST APIs", "Concurrency"],
+      "requirements": ["Basic programming knowledge", "Understanding of networking"],
+      "whatYouWillLearn": [
+        "Write Go programs",
+        "Build network applications",
+        "Create microservices",
+        "Implement concurrent systems"
+      ]
+    },
+    {
+      "id": "course-021",
+      "title": "Artificial Intelligence with Python",
+      "description": "Explore AI concepts including neural networks, natural language processing, computer vision, reinforcement learning, and AI ethics.",
+      "category": "technology",
+      "level": "advanced",
+      "price": 104.99,
+      "originalPrice": 169.99,
+      "rating": 4.8,
+      "studentsEnrolled": 7234,
+      "duration": "56",
+      "lessonsCount": 298,
+      "lastUpdated": "2025-02-06",
+      "instructor": {
+        "id": "instructor-002",
+        "name": "Dr. Marcus Rodriguez",
+        "title": "AI Research Scientist"
+      },
+      "image": "images/courses/21.webp",
+      "skills": ["AI", "Python", "Neural Networks", "NLP", "Computer Vision"],
+      "requirements": ["Python proficiency", "Mathematics background", "Machine learning basics"],
+      "whatYouWillLearn": [
+        "Build AI systems",
+        "Implement neural networks",
+        "Process natural language",
+        "Create computer vision applications"
+      ]
+    },
+    {
+      "id": "course-022",
+      "title": "Rust Programming Language",
+      "description": "Master Rust programming with focus on memory safety, ownership, concurrency, and building high-performance systems applications.",
+      "category": "technology",
+      "level": "advanced",
+      "price": 89.99,
+      "originalPrice": 144.99,
+      "rating": 4.7,
+      "studentsEnrolled": 5678,
+      "duration": "34",
+      "lessonsCount": 178,
+      "lastUpdated": "2025-01-29",
+      "instructor": {
+        "id": "instructor-011",
+        "name": "Michael Zhang",
+        "title": "Backend Engineer"
+      },
+      "image": "images/courses/22.webp",
+      "skills": ["Rust", "Systems Programming", "Memory Safety", "Concurrency", "Performance"],
+      "requirements": ["Programming experience", "Understanding of low-level concepts"],
+      "whatYouWillLearn": [
+        "Write safe Rust code",
+        "Understand ownership and borrowing",
+        "Build concurrent applications",
+        "Create high-performance systems"
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "id": "instructor-001",
+      "name": "Sarah Chen",
+      "title": "Senior Full Stack Developer",
+      "expertise": "technology",
+      "bio": "Sarah has over 10 years of experience building web applications for Fortune 500 companies. She specializes in JavaScript, React, Node.js, and modern web technologies.",
+      "rating": 4.8,
+      "studentsCount": 28209,
+      "coursesCount": 4,
+      "yearsExperience": 10,
+      "image": "images/instructors/Sara.webp",
+      "education": "M.S. Computer Science - Stanford University",
+      "certifications": ["AWS Certified Solutions Architect", "Google Cloud Professional"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/sarahchen",
+        "twitter": "https://twitter.com/sarahchendev",
+        "github": "https://github.com/sarahchen"
+      }
+    },
+    {
+      "id": "instructor-002",
+      "name": "Dr. Marcus Rodriguez",
+      "title": "AI Research Scientist",
+      "expertise": "technology",
+      "bio": "Dr. Rodriguez leads AI research at a major tech company and has published over 50 papers on machine learning. He makes complex AI concepts accessible to everyone.",
+      "rating": 4.9,
+      "studentsCount": 45601,
+      "coursesCount": 5,
+      "yearsExperience": 15,
+      "image": "images/instructors/Marcus.webp",
+      "education": "Ph.D. Artificial Intelligence - MIT",
+      "certifications": ["TensorFlow Developer", "Deep Learning Specialization"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/marcusrodriguez",
+        "twitter": "https://twitter.com/drrodriguez",
+        "github": "https://github.com/mrodriguez"
+      }
+    },
+    {
+      "id": "instructor-003",
+      "name": "James Patterson",
+      "title": "Senior iOS Developer",
+      "expertise": "technology",
+      "bio": "James has built over 30 iOS apps with millions of downloads. He's passionate about teaching mobile development and helping students launch their first apps.",
+      "rating": 4.6,
+      "studentsCount": 7654,
+      "coursesCount": 1,
+      "yearsExperience": 8,
+      "image": "images/instructors/James.webp",
+      "education": "B.S. Software Engineering - UC Berkeley",
+      "certifications": ["Apple Developer Certification"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/jamespatterson",
+        "twitter": "https://twitter.com/jpatterson",
+        "github": "https://github.com/jpatterson"
+      }
+    },
+    {
+      "id": "instructor-004",
+      "name": "Alex Morgan",
+      "title": "Cybersecurity Specialist",
+      "expertise": "technology",
+      "bio": "Alex is a certified ethical hacker with experience securing enterprise systems. They teach practical cybersecurity skills used in real-world scenarios.",
+      "rating": 4.7,
+      "studentsCount": 8923,
+      "coursesCount": 1,
+      "yearsExperience": 12,
+      "image": "images/instructors/Morgan.webp",
+      "education": "M.S. Cybersecurity - Georgia Tech",
+      "certifications": ["CEH", "CISSP", "Security+"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/alexmorgan",
+        "twitter": "https://twitter.com/alexmorgansec"
+      }
+    },
+    {
+      "id": "instructor-005",
+      "name": "Priya Sharma",
+      "title": "Cloud Architect",
+      "expertise": "technology",
+      "bio": "Priya designs cloud infrastructure for global enterprises. She's an AWS and Azure certified architect with a passion for teaching cloud technologies.",
+      "rating": 4.8,
+      "studentsCount": 25914,
+      "coursesCount": 3,
+      "yearsExperience": 11,
+      "image": "images/instructors/Supriya.webp",
+      "education": "M.S. Information Systems - Carnegie Mellon",
+      "certifications": ["AWS Solutions Architect Professional", "Azure Solutions Architect Expert"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/priyasharma",
+        "twitter": "https://twitter.com/priyacloud"
+      }
+    },
+    {
+      "id": "instructor-006",
+      "name": "Raj Patel",
+      "title": "Android Development Lead",
+      "expertise": "technology",
+      "bio": "Raj leads a team of mobile developers at a top tech company. He's built apps for millions of users and loves teaching Kotlin and Flutter.",
+      "rating": 4.6,
+      "studentsCount": 17579,
+      "coursesCount": 2,
+      "yearsExperience": 9,
+      "image": "images/instructors/raj.webp",
+      "education": "B.Tech Computer Science - IIT Delhi",
+      "certifications": ["Google Associate Android Developer"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/rajpatel",
+        "twitter": "https://twitter.com/rajpateldev",
+        "github": "https://github.com/rajpatel"
+      }
+    },
+    {
+      "id": "instructor-007",
+      "name": "David Kim",
+      "title": "Blockchain Architect",
+      "expertise": "technology",
+      "bio": "David is a blockchain pioneer who has worked on major cryptocurrency projects. He teaches smart contract development and decentralized applications.",
+      "rating": 4.5,
+      "studentsCount": 5432,
+      "coursesCount": 1,
+      "yearsExperience": 7,
+      "image": "images/instructors/david.webp",
+      "education": "M.S. Computer Science - University of Washington",
+      "certifications": ["Certified Blockchain Developer"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/davidkim",
+        "twitter": "https://twitter.com/davidkimblockchain",
+        "github": "https://github.com/dkim"
+      }
+    },
+    {
+      "id": "instructor-008",
+      "name": "Linda Martinez",
+      "title": "Database Administrator",
+      "expertise": "technology",
+      "bio": "Linda has managed databases for Fortune 100 companies for over 14 years. She specializes in SQL optimization and database architecture.",
+      "rating": 4.7,
+      "studentsCount": 13456,
+      "coursesCount": 1,
+      "yearsExperience": 14,
+      "image": "images/instructors/Linda.webp",
+      "education": "M.S. Database Systems - University of Texas",
+      "certifications": ["Oracle Certified Professional", "Microsoft SQL Server Expert"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/lindamartinez",
+        "twitter": "https://twitter.com/lindadba"
+      }
+    },
+    {
+      "id": "instructor-009",
+      "name": "Tom Anderson",
+      "title": "Game Developer",
+      "expertise": "technology",
+      "bio": "Tom has developed award-winning indie games and worked at major game studios. He teaches Unity, Unreal Engine, and game design principles.",
+      "rating": 4.8,
+      "studentsCount": 9123,
+      "coursesCount": 1,
+      "yearsExperience": 10,
+      "image": "images/instructors/Tom.webp",
+      "education": "B.A. Game Design - DigiPen Institute",
+      "certifications": ["Unity Certified Developer"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/tomanderson",
+        "twitter": "https://twitter.com/tomgamedev",
+        "github": "https://github.com/tanderson"
+      }
+    },
+    {
+      "id": "instructor-010",
+      "name": "Emma Wilson",
+      "title": "Frontend Architect",
+      "expertise": "technology",
+      "bio": "Emma architects frontend systems for large-scale applications. She's an expert in Vue.js, React, and modern JavaScript frameworks.",
+      "rating": 4.7,
+      "studentsCount": 8567,
+      "coursesCount": 1,
+      "yearsExperience": 9,
+      "image": "images/instructors/Emma.webp",
+      "education": "B.S. Computer Science - University of Michigan",
+      "certifications": ["Vue.js Certified Developer"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/emmawilson",
+        "twitter": "https://twitter.com/emmavuejs",
+        "github": "https://github.com/ewilson"
+      }
+    },
+    {
+      "id": "instructor-011",
+      "name": "Michael Zhang",
+      "title": "Backend Engineer",
+      "expertise": "technology",
+      "bio": "Michael builds high-performance backend systems in Go and Rust. He's passionate about systems programming and teaching clean code practices.",
+      "rating": 4.6,
+      "studentsCount": 12467,
+      "coursesCount": 2,
+      "yearsExperience": 8,
+      "image": "images/instructors/Michael.webp",
+      "education": "M.S. Computer Engineering - Cornell University",
+      "certifications": ["Go Programming Specialist"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/michaelzhang",
+        "twitter": "https://twitter.com/mzhangdev",
+        "github": "https://github.com/mzhang"
+      }
+    }
+  ]
+}

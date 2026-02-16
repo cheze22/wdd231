@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LearnHub - Discover premium online courses taught by expert instructors. Master new skills in technology, business, design, and more.">
+    <meta name="author" content="Cristhian Nefi Dorado Aguilar">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LearnHub - Learn Skills from Expert Instructors">
+    <meta property="og:description" content="Discover premium online courses taught by expert instructors. Master new skills in technology, business, design, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cheze22.github.io/wdd231/final-project/">
+    <meta property="og:image" content="https://cheze22.github.io/wdd231/final-project/images/og-image.jpg">
+    
+    <title>LearnHub - Learn Skills from Expert Instructors</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.webp" alt="LearnHub Logo" width="150" height="50">
+            </div>
+            <nav>
+                <button id="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="teachers.html">Instructors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Transform Your Future with Expert-Led Courses</h1>
+                <p class="hero-subtitle">Join thousands of students learning from the best instructors around the world. Start your journey today.</p>
+                <div class="hero-cta">
+                    <a href="courses.html" class="btn btn-primary">Browse Courses</a>
+                    <a href="#featured" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="15000">0</span>
+                    <span class="stat-label">Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="250">0</span>
+                    <span class="stat-label">Courses</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span>
+                    <span class="stat-label">Instructors</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="featured-courses">
+            <div class="section-header">
+                <h2>Featured Courses</h2>
+                <p>Explore our most popular courses selected just for you</p>
+            </div>
+            <div class="course-filters">
+                <button class="filter-btn active" data-category="all">All Courses</button>
+                <button class="filter-btn" data-category="technology">Technology</button>
+                <button class="filter-btn" data-category="business">Business</button>
+                <button class="filter-btn" data-category="design">Design</button>
+                <button class="filter-btn" data-category="marketing">Marketing</button>
+            </div>
+            <div id="courses-container" class="courses-grid">
+                <!-- Courses will be dynamically loaded here via JavaScript -->
+            </div>
+            <div class="view-all">
+                <a href="courses.html" class="btn btn-outline">View All Courses</a>
+            </div>
+        </section>
+
+        <section class="why-choose">
+            <h2>Why Choose LearnHub?</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry professionals with years of real-world experience in their fields.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Learn at Your Pace</h3>
+                    <p>Access courses anytime, anywhere. Study at your own schedule with lifetime access.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Certificates</h3>
+                    <p>Earn recognized certificates upon course completion to boost your career prospects.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Community Support</h3>
+                    <p>Join a vibrant community of learners and get help from peers and instructors.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Students Say</h2>
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★★★★★</span>
+                    </div>
+                    <p class="testimonial-text">"The courses on LearnHub have completely transformed my career. The instructors are knowledgeable and the content is always up-to-date."</p>
+                    <div class="testimonial-author">
+                        <img src="images/student3.webp" alt="Sarah Johnson" loading="lazy" width="50" height="50">
+                        <div>
+                            <p class="author-name">Brayden Hunt</p>
+                            <p class="author-role">Web Developer</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★★★★★</span>
+                    </div>
+                    <p class="testimonial-text">"I love the flexibility of learning at my own pace. The quality of instruction is exceptional and worth every penny."</p>
+                    <div class="testimonial-author">
+                        <img src="images/student1.webp" alt="Michael Chen" loading="lazy" width="50" height="50">
+                        <div>
+                            <p class="author-name">William Dorado</p>
+                            <p class="author-role">Digital Marketer</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★★★★★</span>
+                    </div>
+                    <p class="testimonial-text">"The community and support system is amazing. I've made connections that have helped me grow both personally and professionally."</p>
+                    <div class="testimonial-author">
+                        <img src="images/student2.webp" alt="Emily Rodriguez" loading="lazy" width="50" height="50">
+                        <div>
+                            <p class="author-name">Natalia Rodriguez</p>
+                            <p class="author-role">UX Designer</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter and get the latest courses and exclusive offers.</p>
+                <form id="newsletter-form" class="newsletter-form" method="get" action="form-confirmation.html">
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Enter your email address" 
+                            required 
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        >
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <div class="form-consent">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">I agree to receive marketing communications from LearnHub</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LearnHub</h3>
+                <p>Empowering learners worldwide with quality education and expert instruction.</p>
+                <p class="location">La Paz, Bolivia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="teachers.html">Instructors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="attributions.html">Attributions</a></li>
+                    <li><a href="https://www.loom.com/share/235a265ff2df4330be821fe0efb049dd" id="demo-video-link">Video Demo</a></li>
+                    <li><a href="https://github.com/cheze22/wdd231" target="_blank" rel="noopener">GitHub Repository</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/?locale=es_LA" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/?lang=es" aria-label="X">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/cristhian-nefi-dorado-aguilar-780a8a248/" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> LearnHub. All rights reserved. | Developed by Cristhian Nefi Dorado Aguilar for BYU-Idaho WDD 231</p>
+            <p class="last-modified">Last Modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+
+    <!-- Modal for course details -->
+    <div id="course-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modal-body">
+                <!-- Content will be dynamically inserted -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
